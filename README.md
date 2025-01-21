@@ -17,6 +17,7 @@
     - Caso queira verificar a criação dos registros corretamente, pode comentar o afterAll que remove a tabela
 
 ## Rodando Localmente
+- Abra o seu docker-desktop e execute `docker-compose up` para rodar o dynamoDBLocal
 - Execute `npm install -g dynamodb-admin`
 - Execute `DYNAMO_ENDPOINT=http://localhost:8000 dynamodb-admin`
 - Execute `yarn run:local`
