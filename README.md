@@ -20,8 +20,9 @@
 - Abra o seu docker-desktop e execute `docker-compose up` para rodar o dynamoDBLocal
 - Execute `npm install -g dynamodb-admin`
 - Execute `DYNAMO_ENDPOINT=http://localhost:8000 dynamodb-admin`
+- Instale o serverless framework (https://www.serverless.com/framework/docs)
 - Execute `yarn run:local`
 
 ## Dando deploy
-- Instale e configure suas credenciais AWS no Serverless Framewor (https://www.serverless.com/framework/docs)
+- Instale e configure suas credenciais AWS no Serverless Framework (https://www.serverless.com/framework/docs)
 - Execute `sls deploy`
